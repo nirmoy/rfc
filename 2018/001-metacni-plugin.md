@@ -15,7 +15,12 @@ limitation in this approach.
  * It is not possible to levarage diffrent networking solutions like: DPDK, SR-IOV, openvSwitch
  * Different SDN.... 
 ### Proposed change
- * Allow to multiple CNI support as per [Kubernetes Network Custom Resource Definition De-facto Standard](https://docs.google.com/document/d/1Ny03h6IDVy_e_vmElOqR7UdTPAG_RNydhVE1Kx54kFQ/edit#) 
+ * Allow multiple CNI support using meta-plugin
+   as per [Kubernetes Network Custom Resource Definition De-facto Standard](https://docs.google.com/document/d/1Ny03h6IDVy_e_vmElOqR7UdTPAG_RNydhVE1Kx54kFQ/edit#) 
+### Work flow
+<p align="center">
+   <img src="https://github.com/intel/multus-cni/blob/master/doc/images/workflow.png" width="1008" />
+</p>
 
 ## Detailed RFC
 
